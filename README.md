@@ -68,8 +68,26 @@ $ defaults write -g KeyRepeat -int 1
 $ defaults write -g InitialKeyRepeat -int 14
 ```
 
+# install brew packages
+```
+$ brew list
+augeas                          gettext                         icu4c                           lzlib                           perl                            redis                           tmux
+autoconf                        gflags                          jpeg                            mongodb                         pkg-config                      rocksdb                         unrar
+awscli                          ghc                             libarchive                      mysql                           pyenv                           ruby                            vim
+boost                           ghkw                            libevent                        nginx                           pyenv-virtualenv                sl                              xz
+cabal-install                   git                             libmagic                        node                            python                          sleuthkit                       yara
+composer                        git-now                         librdkafka                      nodebrew                        python@2                        snappy                          yarn
+coreutils                       glog                            libyaml                         openssl                         rapidjson                       speedtest-cli                   zlib
+fzf                             gnu-getopt                      lldpd                           osquery                         readline                        sqlite                          zstd
+gdbm                            haskell-stack                   lz4                             pcre                            reattach-to-user-namespace      thrift
+```
+
+# 超便利な control + r での履歴検索の導入方法
+```
+https://github.com/junegunn/fzf#using-homebrew-or-linuxbrew
+```
+
 # 最後に
 ここでは紹介しませんが、fzfを導入するのを強くおすすめします。
 また、このドキュメントとリポジトリは完成していません。
 随時メンテをしていきます。
-
